@@ -1,0 +1,146 @@
+*{
+    font-family:"Montserrat";
+    margin:0;
+}
+
+/*header and navigation bar */
+#logo{
+    width:20%;
+    margin-right:15%;
+    padding-right:10%;
+    
+}
+
+.nav_ul a{
+    font-size:17px;
+    list-style:none;
+    text-decoration:none;
+}
+
+header{
+    margin-bottom:20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:20px 20%;
+    background-color: #229226;
+}
+
+.nav_ul li,a
+{
+    display:inline-block;
+    padding: 0 20px;
+    color: black;
+}
+
+.nav_ul a:hover{
+    text-decoration: underline;
+}
+
+/*setting up background*/
+body{
+    background-image:url("siege-maverick.jpg");
+    background-size: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+/*search box*/
+.search_container{
+    background-color: #229226;
+    opacity:81%;
+    padding:2em;
+    margin: 5.1em;
+}
+
+.reviews{
+    padding-left:37%;
+}
+
+/*upcoming_games*/
+.right_side_container{
+    display:flex;
+}
+.game_container{
+    background-color: #229226;
+    opacity:81%;
+    padding:6%;
+    margin-left:75%;
+
+}
+
+.game_container p{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.list ul li{
+    list-style: none;
+    margin-left: -25%;
+}
+
+/*left_side_container*/
+.left_side_container{
+    display: flex;
+}
+
+.news_container{
+    margin-top: 2%;
+    background-color: black;
+    opacity:71%;
+    padding:8em;
+}
+
+.heading{
+    color:white;
+    font-size: 35px;
+    padding:30px;
+}
+
+.content p{
+    color: white;
+    padding-left: 2.3%;
+    word-spacing:6px;
+}
+
+/*footer*/
+
+footer{
+    margin-top:20%;
+    background-color:#229226;
+}
+
+.footer1{
+    font-size: 22px;
+    padding-left: 11%;
+    padding-top: 2em;
+    
+}
+
+.footer2{
+    font-size:20px ;
+    padding-bottom:1%;
+    padding-left:73%;
+    padding-top:-4em;
+    margin-top:-1.55em;
+}
+
+.social_media{
+    padding-left:80%;
+    padding-bottom:1%;
+
+}
+.social_media li,a{
+    list-style: none;
+    text-decoration: none;
+    font-size:17px;
+    
+}
+.sc_ul a:hover{
+    text-decoration: underline;
+    
+    
+}
+

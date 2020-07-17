@@ -1,0 +1,212 @@
+*{
+    font-family:"Montserrat";
+    margin:0;
+}
+/*header and navigation bar */
+#logo{
+    width:20%;
+    margin-right:15%;
+    padding-right:10%;
+    
+}
+
+.nav_ul a{
+    font-size:17px;
+    list-style:none;
+    text-decoration:none;
+}
+
+header{
+    margin-bottom:20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:20px 20%;
+    background-color: #229226;
+}
+
+.nav_ul li,a
+{
+    display:inline-block;
+    padding: 0 20px;
+    color: black;
+}
+
+.nav_ul a:hover{
+    text-decoration: underline;
+}
+/*setting up background*/
+body{
+    background-image:url("siege-maverick.jpg");
+    background-size: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/*sidemenu*/
+.menu{
+    display:flex;
+    margin-bottom:5%;
+}
+.menu_container {
+    background-color: #229226 ;
+    opacity: 81%;
+    font-weight: bolder;
+    margin-left:10px;
+}
+.menu_container li,a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu_container p{
+    font-size: 20px;
+}
+
+.menu_container a:hover{
+    text-decoration: underline;
+}
+/*credentials*/
+.credential_container{
+    display: flex;
+    
+}
+
+.login{
+    margin-top: -200px;
+    margin-left:1000px;
+    height:290px;
+    background-color: #229226 ;
+    opacity:81%;
+    
+}
+
+.login p{
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.credential p{
+    font-size: 20px;
+    text-align: inherit;
+    padding-left:20px;
+}
+
+#email_box{
+    padding-left:20px;
+}
+
+#password_box{
+    padding-left:20px;
+}
+
+#submit_button{
+
+    border-style: solid;
+    margin-left: 40px;
+    align-items: center;
+    padding-right:18%;
+    padding-left:18%;   
+}
+
+.signup_option a{
+    font-size: 20px;
+}
+
+.signup_option a:hover{
+    text-decoration: underline;
+}
+
+/*review tab*/
+
+.review_container{
+    display: inline-block;
+    background-color: black;
+    opacity:71%;
+    margin-left:1%;
+    padding:100px;
+    padding-right:-5%;
+    order:2;
+}
+.top_3_reviews{
+    padding-right:200px;
+    padding-bottom:100px;
+}
+.top_3_reviews li{
+    list-style:none;
+    font-size:22px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+}
+.top_3_reviews p{
+    color:white;
+    font-size: 25px;
+    text-decoration:underline;
+}
+
+/*options*/
+
+.option_container{
+    margin-top:20%;
+    padding:5%;
+    background-color:#229226;
+    opacity:81%;
+}
+.option_bar  a{
+    font-size: 24px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.option_bar li{
+    display: inline-block;
+    padding-left: 80px;
+}
+
+.option_bar a:hover{
+    text-decoration: underline;
+}
+
+/*footer*/
+
+footer{
+    margin-top:20%;
+    background-color:#229226;
+}
+
+.footer1{
+    font-size: 22px;
+    padding-left: 11%;
+    padding-top: 2em;
+    
+}
+
+.footer2{
+    font-size:20px ;
+    padding-bottom:1%;
+    padding-left:73%;
+    padding-top:-4em;
+    margin-top:-1.55em;
+}
+
+.social_media{
+    padding-left:80%;
+    padding-bottom:1%;
+
+}
+.social_media li,a{
+    list-style: none;
+    font-size:17px;
+    text-decoration: none;
+    
+}
+.sc_ul a:hover{
+    text-decoration: underline;
+    
+    
+}
+

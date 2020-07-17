@@ -1,0 +1,130 @@
+*{
+    font-family:"Montserrat";
+    margin:0;
+}
+
+/*header and navigation bar */
+#logo{
+    width:20%;
+    margin-right:15%;
+    padding-right:10%;    
+}
+
+.nav_ul a{
+    font-size:17px;
+    list-style:none;
+    text-decoration:none;
+}
+
+header{
+    margin-bottom:20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:20px 20%;
+    background-color: #229226;
+}
+
+.nav_ul li,a
+{
+    display:inline-block;
+    padding: 0 20px;
+    color: black;
+}
+
+.nav_ul a:hover{
+    text-decoration: underline;
+}
+
+/*setting up background*/
+body{
+    background-image:url("siege-maverick.jpg");
+    background-size:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+/*signup box*/
+.container{
+    display: flex;
+    
+    
+}
+.signup{
+    margin-top:180px;
+    margin-left:450px;
+    padding:10em;
+    background-color: #229226;
+    opacity:81%;
+}
+.heading{
+    font-size: 2.2em;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: -2.5em;
+}
+
+.signup_form p{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.submit_button{
+    padding-left:3.5em;
+    padding-bottom: 1.5em;
+}
+
+
+.login_option a{
+    margin-left: -1.9em;
+    text-decoration: none;
+}
+
+.login_option a:hover{
+    text-decoration: underline;
+}
+
+/*footer*/
+
+footer{
+    margin-top:20%;
+    background-color:#229226;
+}
+
+.footer1{
+    font-size: 22px;
+    padding-left: 11%;
+    padding-top: 2em;
+    
+}
+
+.footer2{
+    font-size:20px ;
+    padding-bottom:1%;
+    padding-left:73%;
+    padding-top:-4em;
+    margin-top:-1.55em;
+}
+
+.social_media{
+    padding-left:80%;
+    padding-bottom:1%;
+
+}
+.social_media li,a{
+    list-style: none;
+    font-size:17px;
+    text-decoration: none;
+    
+}
+.sc_ul a:hover{
+    text-decoration: underline;
+    
+    
+}
+
+
+
+
